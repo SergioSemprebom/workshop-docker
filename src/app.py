@@ -1,7 +1,8 @@
 import streamlit as st
+import ctypes
 
 def hello_world():
-    return "Sou engenheiro Devops!"
+    return "Sou Engenheiro de Dados, em o nome de JESUS!"
 
 def main():
     st.write(hello_world())

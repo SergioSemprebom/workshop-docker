@@ -4,10 +4,12 @@ version = "0.1.0"
 description = "Projeto para gerenciar containers Docker com Python"
 authors = ["Sergio Semprebom <sergiosemprebom@gmail.com>"]
 readme = "README.md"
+packages = [{ include = "src" }]
+
 
 [tool.poetry.dependencies]
 python = "^3.12"
-streamlit = "^1.41.1"
+streamlit = "^1.42.0"
 docker = "^6.1.2"  # Versão corrigida
 pandas = "^2.2.3"
 requests = "^2.26.0"
